@@ -26,7 +26,7 @@
 				<Option working_dir="" />
 				<Option object_output="obj/Release-armeabi/" />
 				<Option type="2" />
-				<Option compiler="android_gnu_gcc_compilerarm64-v8a" />
+				<Option compiler="android_gnu_gcc_compilerarmeabi" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-Wall" />
@@ -41,7 +41,7 @@
 				<Option working_dir="" />
 				<Option object_output="obj/Release-armeabi-v7a/" />
 				<Option type="2" />
-				<Option compiler="android_gnu_gcc_compilerarm64-v8a" />
+				<Option compiler="android_gnu_gcc_compilerarmeabi-v7a" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-Wall" />
@@ -56,7 +56,7 @@
 				<Option working_dir="" />
 				<Option object_output="obj/Release-x86/" />
 				<Option type="2" />
-				<Option compiler="android_gnu_gcc_compilerarm64-v8a" />
+				<Option compiler="android_gnu_gcc_compilerx86" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-Wall" />
@@ -71,7 +71,7 @@
 				<Option working_dir="" />
 				<Option object_output="obj/Release-x86_64/" />
 				<Option type="2" />
-				<Option compiler="android_gnu_gcc_compilerarm64-v8a" />
+				<Option compiler="android_gnu_gcc_compilerx86_64" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-Wall" />
@@ -86,11 +86,11 @@
 				<Option working_dir="" />
 				<Option object_output="obj/Release-mips/" />
 				<Option type="2" />
-				<Option compiler="android_gnu_gcc_compilerarm64-v8a" />
+				<Option compiler="android_gnu_gcc_compilermips" />
 				<Option createDefFile="1" />
 				<Compiler>
-					<Add option="-Wall" />
 					<Add option="-O2" />
+					<Add option="-Wall" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -101,7 +101,7 @@
 				<Option working_dir="" />
 				<Option object_output="obj/Release-mips64/" />
 				<Option type="2" />
-				<Option compiler="android_gnu_gcc_compilerarm64-v8a" />
+				<Option compiler="android_gnu_gcc_compilermips64" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-Wall" />
